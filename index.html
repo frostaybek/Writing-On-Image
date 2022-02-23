@@ -1,49 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<style>
-
-  body{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      background-color: black;
-  }
-
-  #main-div {
-      position: relative;
-  }
-
-   #p {
-      position: absolute;
-      left: 10px;
-      top: 155px;
-      font-size: 44px;
-      color: white;
-      font-family: calibri;
-      display: inline;
-      font-weight: bold;
-  }
-
-  img{
-      user-select: none;
-      margin-top: 180px;
-  }
-
-  ::selection{
-      background: #fa4299;
-      color: #fff;
-  }
-
-</style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayaz Aybek - Write on Image</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-
-<div id="main-div">
-<img src="photo.png">
-<p id="p">Bu bir deneme yazısıdır</p>
-
-</div>
+    <div class="main-div">
+        <h1 class="h1">You can select the bottom text.</h1>
+        <img src="photo.png">
+        <p class="p">You can select this text...</p>
+    </div>
 </body>
 </html>
