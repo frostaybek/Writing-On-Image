@@ -44,6 +44,8 @@ body{
     font-weight: bold;
 }
 
+/* Image; */
+
 img{
     user-select: none;
     -webkit-user-drag: none;
